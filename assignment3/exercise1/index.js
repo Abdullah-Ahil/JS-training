@@ -21,7 +21,9 @@ console.log()
 for(var i = 0;i<len2;i++){
     console.log(itCompanies[i].toUpperCase())
 }
-console.log(itCompanies.join(","))
+var str2 =['Facebook','Google', 'Microsoft', 'Apple', 'IBM','Oracle' ,'and' ,'Amazon','are' ,'big', 'companies'];
+
+console.log(str2.join(" "))
 var res = (itCompanies.includes('Apple')) ?  'Apple':'company is not found';
 console.log(res)
 
