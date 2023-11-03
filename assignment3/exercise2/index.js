@@ -22,4 +22,4 @@ console.log()
 var frontEnd = ['HTML','CSS','JS' ,'React']
 var backEnd = ['Node','Express','MongoDB']
 var fullsatck = frontEnd.concat(backEnd)
-console.log(fullsatck)
+console.log('fullsatck : '+fullsatck)
