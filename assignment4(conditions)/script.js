@@ -35,4 +35,44 @@ function largest(a,b,c){
  }
 }
 
-largest(5,8,1);
+largest(51,8,10);
+
+
+// Exercise 2
+let data = {
+    'admin':['create','update','read','delete'],
+    'user':['read','update'],
+    'guest':['read'],
+}
+
+function checkPermission(userRole,action){
+    if(userRole == 'admin' && data.admin.includes(action)){
+        console.log("Permission granted")
+    }
+    else if(userRole == 'user' && data.user.includes(action)){
+        console.log("Permission granted")
+    }
+    else if(userRole == 'guest' && data.guest.includes(action)){
+        console.log("Permission granted")
+    }
+    else{
+        console.log('permission Denied')
+    }
+}
+
+checkPermission('user','read')
+checkPermission('admin','update')
+checkPermission('guest','create')
+
+function calculateDiscountedPrice(prize){
+
+    let actualPrice = prize/10;
+    let total = prize-actualPrice;
+    if(prize >= 50){
+     console.log("discounted prize:",total)
+    }else{
+        console.log("No discount")
+    }
+}
+
+calculateDiscountedPrice(60)
