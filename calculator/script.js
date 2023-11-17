@@ -5,7 +5,7 @@ let string = '';
 
 
 let arr = Array.from(buttons);
-arr.forEach(button =>{
+arr.map(button =>{
     button.addEventListener('click',(val)=>{
         if(val.target.innerText == '='){
             string = eval(string);
