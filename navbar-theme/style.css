@@ -54,13 +54,14 @@
   border-radius: 1vh;
 }
 .icon {
-  color: #edf2f4;
   display: none;
 }
 .navbar a:hover,
 a.active {
   border: 1px solid #edf2f4;
   /* color: black; */
+  /* background-color:#8d99ae; */
+  /* border-radius: 0; */
 }
 
 
