@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;;
+}
+body{
+    display: flex;
+    justify-content: center;
+    margin-top: 10vh;
+}
+#btn{
+    background-color: beige;
+    color: black;
+    font-style: italic;
+    padding: 2vh 2vw;
+    border: 1px solid black;
+    border-radius: 1vh;
+    font-weight: 700;
+    font-size: 2vh;
+    cursor: pointer;
+}
